@@ -29,6 +29,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ) // setup server using cloud providers. - IS the database/server
         // parse is framework/api back-end sits on top of database/server.
         // locally hosted server dashboard but connected to heroku
+        
+        if PFUser.current() != nil {    // stay logged in.
+            let main = UIStoryboard(name: "Main", bundle: nil)
+            let feedNavigationController = main.instantiateViewController(withIdentifier: "FeedNavigationController")
+            
+            window?.rootViewController = feedNavigationController
+        }
+        
         return true
     }
 

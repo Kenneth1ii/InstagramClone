@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A0DB50FD6725475F0E25EB584893C88F"
-               BuildableName = "Pods_Parstagram.framework"
-               BlueprintName = "Pods-Parstagram"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "CF75E64D223AD91D00EE5458"
+               BuildableName = "Parstagram.app"
+               BlueprintName = "Parstagram"
+               ReferencedContainer = "container:Parstagram.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,28 +29,38 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CF75E64D223AD91D00EE5458"
+            BuildableName = "Parstagram.app"
+            BlueprintName = "Parstagram"
+            ReferencedContainer = "container:Parstagram.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A0DB50FD6725475F0E25EB584893C88F"
-            BuildableName = "Pods_Parstagram.framework"
-            BlueprintName = "Pods-Parstagram"
-            ReferencedContainer = "container:Pods.xcodeproj">
+            BlueprintIdentifier = "CF75E64D223AD91D00EE5458"
+            BuildableName = "Parstagram.app"
+            BlueprintName = "Parstagram"
+            ReferencedContainer = "container:Parstagram.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -60,6 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CF75E64D223AD91D00EE5458"
+            BuildableName = "Parstagram.app"
+            BlueprintName = "Parstagram"
+            ReferencedContainer = "container:Parstagram.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
